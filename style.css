@@ -43,8 +43,15 @@ text-shadow: none;
 }
 #game-table {
 /* border removed as requested */
+border: 2px solid var(--table-color);
 text-align: center;
+height: 200px;
 width: 400px;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 table caption {
 color: white;
